@@ -7,15 +7,17 @@
 
 ## Executive summary (non-technical)
 
-During a security review, BrightBake's logs showed an unusual series of attempts to access a company server. Several connections were blocked, but a later connection was allowed. The same external address then made four unsuccessful attempts to sign in to an administrator account before a successful login was recorded.
+BrightBake Online, a fictional online bakery, recorded several blocked attempts to reach a company server, followed by an allowed connection. The same external address then made four unsuccessful attempts to sign in to an administrator account before a successful login. A few minutes later, the server sent about 48.2 million bytes to another external address. A separate alert also reported a new administrator group member.
 
-A few minutes later, the server was associated with a large amount of outgoing network traffic to an external address. This raises the possibility that someone gained unauthorized access and transferred company information. However, the available records do not confirm who signed in or whether any sensitive files were taken.
+These events suggest possible unauthorized access and information loss, but the supplied records do not prove that files were stolen or identify who signed in. An approved administrator or routine business transfer could explain some activity.
 
-I reviewed the supplied firewall, login, and network records, compared alerts from a simulated security monitoring dashboard, and interpreted a short packet-capture excerpt. These sources helped establish the order of events and identify issues needing urgent attention.
+This exercise used supplied firewall, login, and network records, a simulated security dashboard, and a short packet capture produced by tcpdump. No live systems or security tools were operated during the analysis.
 
-BrightBake should preserve relevant evidence, verify whether the login was authorized, protect potentially affected accounts, and investigate the outgoing traffic. If the activity is confirmed as malicious, the incident response team should contain it, reset credentials, enable multi-factor authentication, and check for any additional unauthorized accounts. Management should receive updates and a final review of lessons learned.
+BrightBake should preserve the records, confirm whether the login and account change were authorized, and identify the purpose of the outgoing traffic. If malicious activity is confirmed, responders should contain it, reset affected credentials, add stronger login protection, and check that services are safe before restoring normal operations.
 
 ## Scope and sources
+
+Source: the user-supplied four-page `Module-4-Activity-Cybersecurity-Tools.pdf`, titled *Course 1, Module 4 Activity: Cybersecurity Tools* and dated 13 October 2026.
 
 Evidence supplied for the exercise:
 

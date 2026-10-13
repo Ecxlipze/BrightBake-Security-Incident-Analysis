@@ -6,9 +6,15 @@
 
 ## Project overview
 
-This project analyzes a fictional incident at **BrightBake**, an online business. A series of blocked inbound connections was followed by an allowed SSH connection, failed administrator logins, a successful administrator login, and outbound network traffic to an external address. The pattern warrants urgent investigation, but the provided evidence **does not conclusively prove** who logged in or whether customer data was stolen.
+This project analyzes a fictional incident at **BrightBake Online**, an e-commerce bakery. A series of blocked inbound connections was followed by an allowed SSH connection, failed administrator logins, a successful administrator login, and outbound network traffic to an external address. The pattern warrants urgent investigation, but the provided evidence **does not conclusively prove** who logged in or whether customer data was stolen.
 
 The goal is to demonstrate how an entry-level security analyst can correlate alerts and logs, reconstruct a timeline, prioritize investigation, and propose proportionate response actions.
+
+## Activity coverage
+
+Based on the user-supplied *Course 1, Module 4 Activity: Cybersecurity Tools* (`Module-4-Activity-Cybersecurity-Tools.pdf`, dated 13 October 2026). The [complete activity responses](activity-responses.md) answer all six parts by question number: logs, SIEM dashboards and hosting, playbooks, packet analysis and ethics, Linux/SQL/Python tool selection, and portfolio presentation. The incident report also contains the activity's 150-200 word management summary.
+
+This is an independent training write-up, not a claim of official endorsement or certificate completion.
 
 ## Key findings
 
@@ -46,10 +52,11 @@ All times reflect the supplied training logs; no timezone is provided.
 | `tcpdump` | Analyzed a supplied packet-capture excerpt; no live capture was performed |
 | Firewalls / SSH / TCP | Interpreted connection decisions, logins, ports, and packet flags |
 | Wireshark | Discussed as a possible GUI-based follow-up tool; **not used hands-on** |
-| Linux, SQL, Python | Related learning topics; **not used to execute this investigation** |
+| Linux, SQL, Python | Tool-selection reasoning and an illustrative SQL query; **not used to execute this investigation** |
 
 ## Repository contents
 
+- [`activity-responses.md`](activity-responses.md): Complete numbered responses to all six activity parts, including the optional SQL query
 - [`incident-report.md`](incident-report.md): Management summary, assessment, and response status
 - [`log-analysis.md`](log-analysis.md): Evidence table, unified timeline, and technical interpretation
 - [`recommendations.md`](recommendations.md): Prioritized response steps, additional investigations, and prevention

@@ -71,7 +71,7 @@ The first three packets show TCP payloads of **1,448 bytes each**, from source p
 | 02:26:10 | Network flow | `12,004` bytes outbound to `198.51.100.7:21` | Further suspicious outbound flow |
 | 02:26:10.004 | `tcpdump` | SYN to port `21`, `length 0` | Connection attempt only |
 
-**Timestamp caveat:** The log extracts use different levels of precision, and no time zones or clock synchronization details are supplied. Alignment is provisional until verified.
+**Timestamp caveat:** The log extracts use different levels of precision, and no time zones or clock synchronization details are supplied. Alignment is provisional until verified. The activity narrative says Sunday night, but the printed log date (2026-10-12) is a Monday; this report preserves the log date. The scenario implies that `auth-server` corresponds to `10.0.0.12`; confirm that mapping against asset records in a real investigation.
 
 ## 4. Address and port reference
 
