@@ -17,7 +17,7 @@ BrightBake should preserve the records, confirm whether the login and account ch
 
 ## Scope and sources
 
-Source: the user-supplied four-page `Module-4-Activity-Cybersecurity-Tools.pdf`, titled *Course 1, Module 4 Activity: Cybersecurity Tools* and dated 13 October 2026.
+Source: the user-supplied four-page [Module-4-Activity-Cybersecurity-Tools.pdf](Module-4-Activity-Cybersecurity-Tools.pdf), titled *Course 1, Module 4 Activity: Cybersecurity Tools* and dated 13 October 2026.
 
 Evidence supplied for the exercise:
 

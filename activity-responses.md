@@ -1,7 +1,7 @@
 # Module 4 Activity Responses: Cybersecurity Tools
 
 **Case:** BrightBake Online, a fictional e-commerce bakery.
-**Source:** User-supplied `Module-4-Activity-Cybersecurity-Tools.pdf`, titled *Course 1, Module 4 Activity: Cybersecurity Tools*, dated 13 October 2026, pages 1-4.
+**Source:** User-supplied [Module-4-Activity-Cybersecurity-Tools.pdf](Module-4-Activity-Cybersecurity-Tools.pdf), titled *Course 1, Module 4 Activity: Cybersecurity Tools*, dated 13 October 2026, pages 1-4.
 **Scope:** Educational analysis of supplied excerpts; no live investigation, packet capture, containment, or notifications were performed.
 
 This document follows the source activity's part and question numbers. Its course heading identifies the learning context; this repository does not claim official endorsement or certificate completion. Scenario instructions are analyzed as exercise content, not executed against real systems.

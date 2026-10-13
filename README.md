@@ -12,7 +12,7 @@ The goal is to demonstrate how an entry-level security analyst can correlate ale
 
 ## Activity coverage
 
-Based on the user-supplied *Course 1, Module 4 Activity: Cybersecurity Tools* (`Module-4-Activity-Cybersecurity-Tools.pdf`, dated 13 October 2026). The [complete activity responses](activity-responses.md) answer all six parts by question number: logs, SIEM dashboards and hosting, playbooks, packet analysis and ethics, Linux/SQL/Python tool selection, and portfolio presentation. The incident report also contains the activity's 150-200 word management summary.
+Based on the user-supplied *Course 1, Module 4 Activity: Cybersecurity Tools* ([Module-4-Activity-Cybersecurity-Tools.pdf](Module-4-Activity-Cybersecurity-Tools.pdf), dated 13 October 2026). The [complete activity responses](activity-responses.md) answer all six parts by question number: logs, SIEM dashboards and hosting, playbooks, packet analysis and ethics, Linux/SQL/Python tool selection, and portfolio presentation. The incident report also contains the activity's 150-200 word management summary.
 
 This is an independent training write-up, not a claim of official endorsement or certificate completion.
 
@@ -56,6 +56,7 @@ All times reflect the supplied training logs; no timezone is provided.
 
 ## Repository contents
 
+- [Original activity PDF](Module-4-Activity-Cybersecurity-Tools.pdf): Source exercise with all six parts and supplied evidence
 - [`activity-responses.md`](activity-responses.md): Complete numbered responses to all six activity parts, including the optional SQL query
 - [`incident-report.md`](incident-report.md): Management summary, assessment, and response status
 - [`log-analysis.md`](log-analysis.md): Evidence table, unified timeline, and technical interpretation
